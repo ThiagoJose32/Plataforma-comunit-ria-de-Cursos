@@ -1,0 +1,84 @@
+:root{
+    --color-white: #fff;
+    --color-dark1: #272727;
+    --color-dark2: #2d2d2d;
+    --color-dark3: #414141;
+    --color-dark4: #1c1c1c;
+    --color-dark5: #343434;
+    --color-purple: #b040ff;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: var(--color-dark1);
+}
+header{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: var(--color-white);
+    display: flex;
+    align-items: center; /*Alinha itens na vertical*/
+    justify-content: space-between; /*Itens o mais distante possível*/
+    background-color: var(--color-dark2);
+    box-shadow: 1px 1px 4px var(--color-dark4);
+    height: 56px;
+    width: 85%;
+    padding: 0 5% 0 10%; /*10% na esquerda e direita*/
+    position: fixed;
+}
+header img{
+    height: 50px;
+    width: 50px;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2em;
+}
+header nav div{
+    display: flex;
+    gap: .5em;
+}
+
+header nav button{
+    font-size: 13px;
+    padding: 1em 3em;
+    border-style: none;
+    border-radius: 4px;
+    box-shadow: 2px 2px 4px var(--color-dark4);
+}
+.btn_Cadastrar{
+    background-color: var(--color-purple);
+}
+.btn_Entrar{
+    background-color: #e25246;
+}
+main {
+    height: 1500px;
+    padding: 56px 5% 0 5%;
+}
+main dialog {
+    background-color: var(--color-dark5);
+    margin: auto;
+}
+main dialog form{
+    padding: 10% 0;;
+    text-align: center;
+}
+main dialog form label{
+    color: var(--color-white);
+}
+main dialog form div{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+footer{
+    height: 112px;
+    background-color: var(--color-dark2);
+    padding: 0 5%;
+}
