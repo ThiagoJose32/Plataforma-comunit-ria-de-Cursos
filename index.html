@@ -21,23 +21,34 @@
         </div>
       </nav>
     </header>
+    <nav class="pathControl">Home->Cursos</nav>
     <main>
+      <!-- Barra lateral de opções -->
       <aside>
+        <h2>Categorias</h2>
         <ul>
           <li>
-            <a href="#">Programação</a>
+            <input type="checkbox" name="developer" id="developer" value="developer" checked/>
+            <label for="developer">Programação</label>
           </li>
           <li>
-            <a href="#">Design</a>
+            <input type="checkbox" name="design" id="design" value="design" checked/>
+            <label for="design">Design</label>
           </li>
           <li>
-            <a href="#">Banco de Dados</a>
+            <input type="checkbox" name="database" id="database" value="database" checked/>
+            <label for="database">Programação</label>
           </li>
           <li>
-            <a href="#">Análise de Dados</a>
+            <input type="checkbox" name="dataAnalytics" id="dataAnalytics" value="dataAnalytics" checked/>
+            <label for="dataAnalytics">Análise de Dados</label>
+          </li>
+          <li>
+            <button>Filtrar</button>
           </li>
         </ul>
       </aside>
+      <!-- Barra lateral de opções -->
 
       <!-- Formulário de login e cadastro -->
       <dialog class="dialog_Cadastrar">
@@ -89,21 +100,60 @@
       </dialog>
       <!-- Formulário de login e cadastro -->
 
-      <div style="width: 2px; background-color: aliceblue"></div>
-      <!-- Divisória -->
-
       <div>
-        <div style="display: flex">
-          <p style="padding: 2em 5em">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Architecto, mollitia ipsum? Provident numquam dicta optio et labore
-            eum voluptatum necessitatibus ut quod consequuntur, soluta ad neque
-            id ipsam fugit alias!
+        <div class="texto_e_barraPesquisa">
+          <p>
+            Bem-vindo à nossa lista de cursos de tecnologia! Aqui você encontrará uma variedade 
+            de opções para aprimorar suas habilidades e conhecimentos em áreas como programação, 
+            análise de dados, segurança cibernética e muito mais.
           </p>
-          <input type="text" name="" id="" />
+          <form action="" method="post">
+            <label for="pesquisa">Pesquisar</label>
+            <input type="text" name="pesquisa" id="pesquisa" />
+          </form>
         </div>
+
+        <!-- Tabela de cursos -->
+        <table>
+          <tr>
+            <td>
+              Curso 1
+            </td>
+            <td>
+              Curso 2
+            </td>
+            <td>
+              Curso 3
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Curso 4
+            </td>
+            <td>
+              Curso 5
+            </td>
+            <td>
+              Curso 6
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Curso 7
+            </td>
+            <td>
+              Curso 8
+            </td>
+            <td>
+              Curso 9
+            </td>
+          </tr>
+        </table>
+        <!-- Tabela de cursos -->
+      
       </div>
     </main>
+
     <footer>
       <p>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto,

@@ -56,11 +56,20 @@ header nav .btn_Cadastrar{
 header nav .btn_Entrar{
     background-color: #e25246;
 }
+
+/* Barra de localização da página */
+.pathControl{
+    padding: 66px 5vw 10px 7vw;
+    color: var(--color-white);
+}
+
 main {
-    height: 1500px;
-    padding: 56px 5% 0 5%;
+    height: 1000px;
+    padding: 0 2vw;
     display: flex;
 
+    border: 1px solid white; /*Apagar*/
+    margin: 0 5vw; /**Apagar*/
 }
 main dialog {
     background-color: var(--color-dark5);
@@ -81,10 +90,47 @@ main dialog form div{
 
 main aside{
     height: 100%;
-    width: 15em;
+    width: 35em;
+
+    border-right: 1px solid white;
+    padding: 0 1vw;
 }
+main aside ul li{
+    list-style-type: none;
+}
+main div .texto_e_barraPesquisa{
+    display: flex;
+    gap: 5vw;
+    margin-left: 5vw;
+    margin-bottom: 14px;
+    display: flex;
 
-
+    border: 1px solid white; /*Apagar*/
+}
+main div .texto_e_barraPesquisa p{
+    text-align: justify;
+}
+main div .texto_e_barraPesquisa form{ /*Apagar*/
+    border: 1px solid white;
+    margin: 5px;
+}
+main div .texto_e_barraPesquisa form label{
+    color: var(--color-white);
+}
+main div .texto_e_barraPesquisa form input{
+    width: 20vw;
+    height: 30px;
+}
+main div table{
+    margin-left: 5vw;
+    border: 1px solid white; /*Apagar*/
+}
+main div table tr td{
+    text-align: center;
+    width: 25vw;
+    height: 20vw;
+    background-color: brown;
+}
 
 
 
