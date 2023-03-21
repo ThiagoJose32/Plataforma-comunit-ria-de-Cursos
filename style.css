@@ -50,15 +50,17 @@ header nav button{
     border-radius: 4px;
     box-shadow: 2px 2px 4px var(--color-dark4);
 }
-.btn_Cadastrar{
+header nav .btn_Cadastrar{
     background-color: var(--color-purple);
 }
-.btn_Entrar{
+header nav .btn_Entrar{
     background-color: #e25246;
 }
 main {
     height: 1500px;
     padding: 56px 5% 0 5%;
+    display: flex;
+
 }
 main dialog {
     background-color: var(--color-dark5);
@@ -76,6 +78,22 @@ main dialog form div{
     justify-content: center;
     gap: 5px;
 }
+
+main aside{
+    height: 100%;
+    width: 15em;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 footer{
     height: 112px;
