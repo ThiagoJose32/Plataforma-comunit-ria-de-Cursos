@@ -65,11 +65,12 @@ header nav .btn_Entrar{
 
 main {
     height: 1000px;
-    padding: 0 2vw;
+    width: 90%;
+    padding: 0 2%;
     display: flex;
 
     border: 1px solid white; /*Apagar*/
-    margin: 0 5vw; /**Apagar*/
+    margin: auto;
 }
 main dialog {
     background-color: var(--color-dark5);
@@ -130,8 +131,17 @@ main div table tr td{
     width: 25vw;
     height: 20vw;
     background-color: brown;
-}
 
+}
+main div table tr td img{
+    padding-inline:inherit;
+    width: 230px;
+    padding: 20px 20px 0;
+}
+main div table tr td h4{
+    text-align: center;
+    padding: 10px 0;
+}
 
 
 
