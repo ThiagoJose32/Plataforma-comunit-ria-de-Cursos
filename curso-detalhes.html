@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="curso-detalhes.css" />
+    <title>IFCursos</title>
+  </head>
+
+  <body>
+    <header>
+      <img src="media/logo-sidebar.png" alt="logo" />
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">Cursos</a>
+        <a href="#">Sobre</a>
+        <a href="#">Contato</a>
+        <div>
+          <button class="btn_Cadastrar"><p>Cadastrar</p></button>
+          <button class="btn_Entrar">Entrar</button>
+        </div>
+      </nav>
+    </header>
+    <div class="conteudo">
+      <nav class="pathControl">Home->Cursos</nav>
+      <main>
+
+        <!-- Formulário de login e cadastro -->
+        <dialog class="dialog_Cadastrar">
+          <form action="" method="post">
+            <label for="nome">Nome completo:</label><br />
+            <input type="text" id="nome" name="nome" required /><br />
+
+            <label for="email">E-mail institucional:</label><br />
+            <input type="email" id="email" name="email" /><br />
+
+            <div>
+              <div>
+                <input type="radio" id="grauAluno" name="grauAluno" />
+                <label for="grauAluno">Aluno(a)</label><br />
+              </div>
+              <div>
+                <input type="radio" id="grauProfessor" name="grauProfessor" />
+                <label for="grauProfessor">Professor(a)</label><br />
+              </div>
+            </div>
+
+            <label for="senha">Senha:</label><br />
+            <input type="password" id="senha" name="senha" /><br />
+            <label for="confirmarSenha">Confirmar senha:</label><br />
+            <input
+              type="password"
+              id="confirmarSenha"
+              name="confirmarSenha"
+            /><br />
+
+            <input type="submit" value="Salvar" />
+            <input class="btn_CadastrarSair" type="submit" value="Sair" />
+          </form>
+        </dialog>
+        <dialog class="dialog_Entrar">
+          <form action="" method="post">
+            <label for="nome">Nome completo:</label><br />
+            <input type="text" id="nome" name="nome" required /><br />
+
+            <label for="email">E-mail institucional:</label><br />
+            <input type="email" id="email" name="email" /><br />
+
+            <label for="senha">Senha:</label><br />
+            <input type="password" id="senha" name="senha" /><br />
+
+            <input type="submit" value="Salvar" />
+            <input class="btn_EntrarSair" type="submit" value="Sair" />
+          </form>
+        </dialog>
+        <!-- Formulário de login e cadastro -->
+
+        <div>
+          <h2>Programação</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora numquam in accusantium dolor 
+            autem odio a temporibus, pariatur unde non quod suscipit officia facere repudiandae ratione aut 
+            deleniti iusto quidem?Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet ut voluptatem 
+            sequi culpa quo recusandae neque laborum pariatur explicabo, officia corrupti nobis itaque fuga 
+            quos dolore cumque non, vel quae?Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, 
+            dolorem. Doloribus, pariatur, iste dolorum dignissimos hic repudiandae sunt qui molestiae voluptatum 
+            libero maiores expedita soluta nulla. A, sint! Explicabo, rem!Lorem</p>
+            <img src="media/algoritmos-300x300.jpg" alt="Curso 1">
+            <ul>
+              <li>
+                Módulo 1
+                <iframe
+                  src="https://www.youtube.com/embed/8mei6uVttho"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen>
+                </iframe>
+              </video>
+              
+              </li>
+              <li>
+                Módulo 2
+                <iframe
+                  src="https://www.youtube.com/embed/M2Af7gkbbro"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen>
+                </iframe>
+              </li>
+              <li>
+                Módulo 3
+                <iframe
+                  src="https://www.youtube.com/embed/RDrfZ-7WE8c"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen>
+                </iframe>
+              </li>
+            </ul>
+        </div>
+        
+      </div>
+    </main>
+
+    <footer>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto,
+        mollitia ipsum? Provident numquam dicta optio et labore eum voluptatum
+        necessitatibus ut quod consequuntur, soluta ad neque id ipsam fugit
+        alias!
+      </p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
