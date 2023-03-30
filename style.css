@@ -11,16 +11,17 @@
     margin: 0;
     padding: 0;
 }
+
 body{
     background-color: var(--color-dark1);
 }
 .conteudo{
-    max-width: 1366px;
     display: flex;
     flex-direction: column;
     margin: auto;
 }
 header{
+    max-width: 1366px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
     color: var(--color-white);
@@ -33,6 +34,7 @@ header{
     width: 85%;
     padding: 0 5% 0 10%; /*10% na esquerda e direita*/
     position: fixed;
+    
 }
 header img{
     height: 50px;
@@ -70,9 +72,8 @@ header nav .btn_Entrar{
 }
 
 main {
-    height: 1000px;
+    max-width: 1366px;
     width: 90%;
-    padding: 0 2%;
     display: flex;
 
     border: 1px solid white; /*Apagar*/
@@ -96,14 +97,15 @@ main dialog form div{
 }
 
 main aside{
-    height: 144.9vw;
-    width: 35em;
+    max-width: 150px;
+    width: 40%;
 
     border-right: 1px solid white;
-    padding: 20px 2vw;
+    padding: 2%;
 }
 main aside ul li{
     list-style-type: none;
+    font-size: 13px;
 }
 main div .texto_e_barraPesquisa{
     display: flex;
@@ -116,6 +118,8 @@ main div .texto_e_barraPesquisa{
 }
 main div .texto_e_barraPesquisa p{
     text-align: justify;
+    width: 40%;
+    height: 80px;
 }
 main div .texto_e_barraPesquisa form{ /*Apagar*/
     border: 1px solid white;
@@ -129,20 +133,18 @@ main div .texto_e_barraPesquisa form input{
     height: 30px;
 }
 main div table{
-    margin-left: 5vw;
+    margin: 5%;
     border: 1px solid white; /*Apagar*/
 }
+
 main div table tr td{
     text-align: center;
-    width: 25vw;
-    height: 15vw;
     background-color: brown;
-
 }
 main div table tr td img{
     padding-inline:inherit;
-    width: 230px;
-    padding: 20px 20px 0;
+    width: 80%;
+    padding: 5% 5% 5% 5%;
 }
 main div table tr td h4{
     text-align: center;
@@ -158,7 +160,9 @@ main div table tr td h4{
 
 
 footer{
+    padding-top: 10px;
     height: 112px;
     background-color: var(--color-dark2);
-    padding: 0 5%;
+    max-width: 1366px;
+    margin: auto;
 }
