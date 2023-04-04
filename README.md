@@ -1,5 +1,5 @@
 # Plataforma comunitaria de Cursos
-Uma plataforma comunitária de cursos é um ambiente online onde os alunos podem criar seus próprios cursos e compartilhar conhecimento com outros alunos interessados. Essa plataforma pode ser usada por pessoas em diferentes níveis de habilidade e conhecimento, desde iniciantes até profissionais experientes.
+Um ambiente online onde os alunos podem criar seus próprios cursos e compartilhar conhecimento com outros alunos interessados. Essa plataforma pode ser usada por pessoas em diferentes níveis de habilidade e conhecimento, desde iniciantes até profissionais experientes.
 
 A plataforma terá uma interface intuitiva e fácil de usar, permitindo que os usuários criem seus cursos com facilidade. Os alunos poderão criar seus próprios materiais didáticos, incluindo vídeos, apresentações, textos e exercícios práticos, além de poderem compartilhar recursos adicionais, como artigos, livros e sites relevantes. A plataforma também contará com recursos de edição e formatação de texto, para que os usuários possam criar materiais de qualidade profissional.
 
